@@ -34,9 +34,8 @@ header {
   }
 }
 .active {
-  background-color: black;
-  color: white;
-  padding: 0.6em;
+  border-bottom: 3px solid blue;
+  padding-bottom: 3px;
 }
 
 .screen_container {
