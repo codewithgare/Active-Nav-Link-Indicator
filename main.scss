@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  a {
+    text-decoration: none;
+  }
+}
+
+header {
+  font-size: 1.2rem;
+  display: flex;
+  padding: 1em 10% 1em 10%;
+  justify-content: space-between;
+  background-color: azure;
+  .logo {
+    a {
+      color: blrgb(0, 128, 255);
+      font-weight: bold;
+      span {
+        color: black;
+      }
+    }
+  }
+  nav {
+    font-weight: bold;
+    a {
+      margin-left: 1em;
+      color: black;
+      &:hover {
+        background-color: black;
+        color: white;
+        padding: 0.6em;
+      }
+    }
+  }
+}
+.active {
+  background-color: black;
+  color: white;
+  padding: 0.6em;
+}
+
+.screen_container {
+  display: flex;
+  //to be able to use justify and align, display must be set to flex
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgb(248, 253, 253);
+  .screen_name {
+    font-size: 4.8rem;
+  }
+}
